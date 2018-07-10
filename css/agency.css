@@ -169,9 +169,13 @@ img::-moz-selection {
   }
 }
 
+header.masthead{
+  /*background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));*/
+}
+
 header.masthead {
   text-align: center;
-  color: white;
+  /*color: white;*/
   background-image: url("../img/header1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -596,10 +600,12 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 section#contacto {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  /*background-color: #212529;*/
+  /*background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+
 }
 
 section#contact .section-heading {
@@ -712,4 +718,9 @@ section#servicios{
 
 #navbarResponsive .nav-item{
   background-color: green;
+}
+
+#experiencia img{
+  width: 100px!important;
+  height: 100px!important;
 }

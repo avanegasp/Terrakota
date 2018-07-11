@@ -51,8 +51,46 @@ a{
 .superior{
 	margin-top: 10%;
 	margin-left: 11%;
+	margin-bottom: 5%;
 }
 
 .list-unstyled-item{
 	margin-left: 50%;
+}
+
+.service-box{
+	font-family: 'Saira Extra Condensed',serif;
+	color: #E68F4C;
+}
+
+.tituloInterventoria{
+	color: #E68F4C;
+
+}
+
+.tituloCopropiedades{
+	color: #E68F4C;
+}
+
+.social-icons {
+	margin: 0;
+	position: fixed;
+	right: 2.5rem;
+	bottom: 2rem;
+	width: auto;
+}
+
+.social-icons ul > li > a:hover {
+	background-color: #E68F4C;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  background-color: rgb(97, 13, 0);
+  border-radius: 100%;
+  /*font-size: 2rem;*/
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem;
 }

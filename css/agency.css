@@ -13,15 +13,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #E68F4C;
 }
 
 a:hover {
-  color: #fec503;
+  color: #E68F4C;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #E68F4C !important;
 }
 
 h1,
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  /*font-weight: 700;*/
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -39,7 +39,7 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -69,9 +69,9 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 
-.btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+/*.btn-primary {
+  background-color: #E68F4C;
+  border-color: #E68F4C;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -82,6 +82,20 @@ section h3.section-subheading {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}*/
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #ee4b28 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -117,13 +131,8 @@ img::-moz-selection {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
-}
-
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #E68F4C;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,12 +140,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #000000;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #E68F4C;
 }
 
 @media (min-width: 992px) {
@@ -716,11 +725,30 @@ section#servicios{
   background-color: rgb(163, 0, 0) !important;
 }
 
-#navbarResponsive .nav-item{
-  background-color: green;
-}
-
 #experiencia img{
   width: 100px!important;
   height: 100px!important;
+}
+
+#portafolio img{
+  width: 500px!important;
+  height: 400px!important;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.dropdown-item{
+  color: orange;
+}
+
+#mainNav .navbar-brand {
+  color: #F05F40;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }

@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #E68F4C !important;
+  color: #ffffff !important;
 }
 
 h1,
@@ -53,9 +53,17 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+section h4.service-heading {
+    font-size: 23px;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
+  }
+
+  section h4.service-heading{
+    font-size: 18px;
   }
 }
 
@@ -127,7 +135,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #F05F40;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -170,7 +178,6 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -180,19 +187,6 @@ img::-moz-selection {
 
 header.masthead{
   /*background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));*/
-}
-
-header.masthead {
-  text-align: center;
-  /*color: white;*/
-  background-image: url("../img/header1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 header.masthead .intro-text {
@@ -222,7 +216,7 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 29px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
@@ -247,7 +241,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+/*#portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -705,11 +699,12 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #E68F4C;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #F05F40;
+
 }
 
 
@@ -742,6 +737,7 @@ section#servicios{
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  padding: .5rem 1rem;
 }
 
 .dropdown-item{
@@ -751,4 +747,67 @@ section#servicios{
 #mainNav .navbar-brand {
   color: #F05F40;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.contact-wrapper{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+}
+
+header.masthead {
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  /* Standard syntax */
+}
+
+.home-wrapper{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
+	/*background-size: cover;*/
+  /*color: white;
+	background-attachment: fixed;*/
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ }
+
+ header.masthead {
+   text-align: center;
+   color: white;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+ header.masthead .intro-text .intro-heading {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size:50px;
+  margin-top: 60px;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+navBar{
+  padding: .5rem 1rem;
+}
+
+#acerca h3.section-subheading{
+  font-size: 30px;
+}
+
+.text-muted{
+  color: #ffffff;
 }
